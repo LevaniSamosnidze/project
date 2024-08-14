@@ -17,22 +17,22 @@
 
 
 
-def listfun(walk):
-    if len(walk) != 10:
+def listfun(arr):
+    if len(arr) != 10:
         return False
+    len1 = 0
+    len2 = 0
     
-    x,y = 0
     
-    
-    for i in walk:
+    for i in arr:
         if i == 'n':
-            y += 1
+            len1 += 1
         elif i == 's':
-            y -= 1
+            len1 -= 1
         elif i == 'e':
-            x += 1
+            len2 += 1
         elif i == 'w':
-            x -= 1
-    return x == 0 and y == 0
+            len2 -= 1
+    return len2 == 0 and len1 == 0
             
-listfun(['w','e','w','e','w','e','w','e','w','e','w','e']) 
+print(listfun(['w','e','w','e','w','e','w','e','w','e','w','e']))
