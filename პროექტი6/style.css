@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=abstract-background-blur-949587.jpg&fm=jpg);
+}
+
+.container {
+    text-align: center;
+    border-radius: 5px;
+    height: 300px;
+    background-color: rgba(95, 158, 160, 0.084);
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.counter {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1rem;
+    
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+button {
+    margin-left: 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 1px solid;
+    color: black;
+    transform: scale(1.03);
+}
+

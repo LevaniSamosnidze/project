@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-top: 170px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button{
+    width: 120px;
+    height: 35px;
+    border-radius: 0px 0px 1px;
+    border: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #c4c4c4;
+}
+button:active{
+    background-color: #757575;
+}
+p{
+    font-size: 50px;
+}

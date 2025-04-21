@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+#vaaaa{
+    margin-top: 125px;
+}
+ul {
+    display: flex;
+    gap: 30px;
+    transform: translate(44%);
+
+}
+.li{
+    list-style: none;
+    transition: 0.6s;
+
+}
+.li:hover{
+    transform: scale(1.1);
+}
+.a:hover{
+    box-shadow: 0px 0px 100px;
+    background-color: #6e727b2e;
+}
+
+#header{
+    border: 1px solid;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    
+}
+#logo{
+    width: 250px;
+    box-shadow:0px 0px 5px;
+    animation: move 5s infinite;
+    position:absolute;
+
+}
+@keyframes move{
+    0%{ left: 0;}
+    50%{ left: calc(100% - 250px);}
+    100%{left: 0;}
+}
+#login{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    position: relative;
+    bottom: 10px;
+}
+#login:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+
+.a:active{
+    color:red ;
+}
+
+#main_header{
+    background-color: black;
+    height: 600px;
+}
+#logo1{
+    position: fixed;
+    width: 100px;
+}
+#div1{
+    text-align: center;
+}
+#img{
+    width: 600px;
+
+}
+#search{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+#fasdakleba{
+    width: 100%;
+    height: 800px;
+}
+#See_more{
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 150px;
+    right: 600px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    transition: 0.8s;
+}
+#See_more:hover{
+    border: 1px solid;
+    background-color: transparent;
+    color: black;
+}
+#col{
+    position: relative;
+    top: 800px;
+    border: 1px solid;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+#hh,#h1{
+    text-align: center;
+    font-size: 100px;
+}
+#gol{
+    border: 1px solid;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 50000px;
+    background-color: rgba(0, 0, 0, 0.549);
+    border: none;
+}
+#img1{
+    position: relative;
+    top:140px;
+    left: 140px;
+    width: 300px;
+    box-shadow: 0px 0px 20px;
+}
+#main{
+    border: 1px solid;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr  ;
+    box-sizing: border-box;
+    gap: 40px;
+    border: none;
+
+    background-color: rgb(254, 254, 254);
+} 
+.shoes{
+    box-sizing: border-box;
+    border: 1px solid;
+    border: none;
+    transition: 0.8s;
+
+
+
+    
+}
+.shoes:hover{
+    border: 1px solid;
+    transform: scale(1.04);
+    
+}
+.shoes1{
+    background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/29175cb7b2224f6b81278de2b21311d7_9366/Ultraboost_1.0_Shoes_White_ID0145_01_standard.jpg);
+    background-size: contain;
+    
+}
+.but1{
+    position: relative;
+    top: 515px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.8s;
+    border-radius: 5px;
+    width:50px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.but1:hover{
+    color: black;
+    background-color: transparent;
+}
+.lol{
+    border: 1px solid;
+    position: relative;
+    top: 500px;
+    border: none;
+
+}
+.p{
+    text-align: center;
+} 
+.shoes2{
+   
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/796b937a851f4f838fd58d40ee1f8205_9366/Sambae_Shoes_Blue_IG1953_01_standard.jpg);
+    background-size: contain;
+    
+
+}  
+.shoes3{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/016bf1019b6349edb0455c9546c69081_9366/Gazelle_Bold_Shoes_Blue_IG4367_01_standard.jpg);
+    background-size: contain;
+
+}
+.shoes4{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/85f5f9076bc742c8ba3910ef12ee6e4a_9366/Daily_4.0_Shoes_Grey_IF4493_01_standard.jpg);
+    background-size: contain;
+}
+.shoes5{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b310c445a17412b84f6a2e5b7f8e66f_9366/Campus_00s_Shoes_Brown_IF8770_01_standard.jpg);
+    background-size: contain;
+}
+.shoes6{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9efae4b5ffea4358a156b73db0c88f27_9366/Forum_Low_CL_Shoes_White_IH7830_01_standard.jpg);
+    background-size: contain;
+}
+#main1{
+    border: 1px solid;
+    height: 600px;
+    width: 600px;
+    border-radius: 5000px;
+    margin: auto;
+    background-color: rgba(69, 69, 69, 0.808);
+}
+.h1{
+    text-align: center;
+    font-size: 100px;
+}
+#vax{
+    border: 1px solid;
+    position: relative;
+    top: 1650px;
+    margin: auto;
+    border: none;
+}
+
+#div9{
+    border: 1px solid;
+    height:1200px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    border: none;
+}
+
+.pants{
+    border: 1px solid;
+    border: none;
+    transition: 0.8s;
+}
+.pants:hover{
+    border: 1px solid;
+    transform: scale(1.04);
+}
+
+.pants1{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ee6098bb8e8f40b58fbd4e562b6357d5_9366/Adicolor_Neuclassics_Track_Pants_Black_JH3772_21_model.jpg);
+    background-size: cover;
+}
+.pants2{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/444d8b502c614afba259498b7645bb93_9366/Tiro_Cargo_Pants_Green_IW5990_21_model.jpg);
+    background-size: cover;
+}
+.pants3{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/981b637c5d3b40d49d6f24b8a9843629_9366/80s_Track_Pants_Blue_JC6148_21_model.jpg);
+    background-size: cover;
+}
+.pants4{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/51cb28d570b741a68d6bcf7515c6eec6_9366/Essentials_Rib_Flared_Leggings_Black_IW5727_21_model.jpg);
+    background-size: cover;
+}
+.pants5{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/895715d259ae4db4ac474dea35117e54_9366/Adibreak_Pants_Yellow_IY9931_21_model.jpg);
+    background-size: cover;
+}
+.pants6{
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/342a499578d2424e88a4b138f7b96754_9366/Optime_Full-Length_Leggings_Blue_IX0213_21_model.jpg);
+    background-size: cover;
+}
+
+#footer{
+    position: relative;
+    top: 1700px;
+    width: 100%;
+    height: 500px;
+}
+#pp{
+    position: relative;
+    left: 300px;
+    border: 1px solid;
+    width: 32%;
+    height: 400px;
+    background-color: rgba(254, 248, 240, 0.974);
+    box-shadow: 0px 0px 5px;
+    border: none;
+}
+#ll{
+    border: 1px solid;
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 750px;
+    bottom: 400px;
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Original-image-Adidas-Shoes-Wallpapers-HD.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 5px;
+    
+}
+#m{
+    text-align: center;
+    font-size: 40px;
+}
+#ppp{
+    font-size: 30px;
+}
+
+.div6{
+    border: 1px solid;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(253, 234, 209, 0.212);
+    border: none;
+}
+#sel{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.abt{
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 2rem;
+}
+#about_me {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 2rem;
+    
+}
+
+.abtmetitle {
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.myimg {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 5%;
+    margin-left: 100px;
+    animation: heartbeat 15s infinite alternate;
+}
+
+.abtme {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_crew {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 2rem;
+}
+
+.abtcrewtitle {
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.abtcrew {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes heartbeat {
+    0% {
+    transform: scale(1);
+    }
+
+    25% {
+    transform: scale(1.1);
+    }
+
+    50% {
+    transform: scale(1);
+    }
+
+    75% {
+    transform: scale(1.1);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+
+.btn{
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.secbtn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #4d4d4d;
+    padding: 70px 0;
+    position: relative;
+    top: 2050px;
+    display: flex;
+    
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #2eb40d;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.main-card-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.month-best-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 15rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    border: 3px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-image: url('../images/landing_page.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    font-size: xx-large;
+    font-family: "Roboto";
+}
+summary{
+    cursor:default;
+}
+

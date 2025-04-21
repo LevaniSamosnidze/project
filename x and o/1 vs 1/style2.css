@@ -1,0 +1,143 @@
+#conteiner {
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 25px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    border: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+a:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration:overline;
+}
+header{
+    width: 100%;
+    background-color: rgb(100, 95, 95);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.p {
+    font-family: "roboto", sans-serif;
+    display: inline;
+    font-size: 80px;
+    text-shadow: 0px 0px 1px;
+}
+
+.play:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "roboto", sans-serif;
+    margin-top: 20px;
+}
+
+#s {
+    border: 1px solid;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+#win, #win1 {
+    display: inline;
+}
+
+@media (max-width: 700px) {
+    #conteiner {
+        width: 200px;
+        height: 200px;
+        padding-right: 20px;
+    }
+    .play{
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+    }
+    #win, #win1 {
+        display: inline;
+        font-size: 20px;
+        position: relative;
+        top: 40px;
+        right: 70px;
+    }
+    .p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 330px){
+    #conteiner {
+        width: 150px;
+        height: 150px;
+        padding-right: 10px;
+        padding-left: 13px;
+        padding-bottom: 90px;
+    }
+    .play{
+        width: 35px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .p{
+        font-size: 15px;
+    }
+}
